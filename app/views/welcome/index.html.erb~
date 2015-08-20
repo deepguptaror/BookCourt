@@ -1,0 +1,1033 @@
+
+
+
+<header id="abdev_main_header" class="clearfix">
+		<div class="container">
+			<div id="logo">
+				<a href="index-2.html">
+					<img id="main_logo" src="/assets/logo.png" alt="Revelance">
+					<img id="inversed_logo" src="/assets/logo2.png" alt="Revelance">
+				</a>
+			</div>
+			<nav>
+				<a class="menu_social menu_social_facebook" href="#" target="_blank" title="Follow us on Facebook"><i class="entypo-facebook"></i></a>
+				<a class="menu_social menu_social_twitter" href="#" target="_blank" title="Follow us on Twitter"><i class="entypo-twitter"></i></a>
+				<a class="menu_social menu_social_googleplus" href="#" target="_blank" title="Follow us on Google+"><i class="entypo-googleplus"></i></a>
+				
+				<ul id="main_menu">
+					<li class="current-menu-item">
+						<a href="index-2.html">Home</a>
+						<ul>
+							<li><a href="index-2.html">Homepage Layout 1</a></li>
+							<li><a href="index-3.html">Homepage Layout 2</a></li>
+							<li><a href="index-2.html">Parallax Slider</a></li>
+							<li><a href="index-ken_burns_slider.html">Ken Burns Slider</a></li>
+							<li><a href="index-vertical_slider.html">Vertical Slider</a></li>
+							<li><a href="index-video_slider.html">Video Slider</a></li>
+							<li><a href="index-preloader.html">Home With Preloader</a></li>
+						</ul>
+					</li>
+					<li><a href="index-2.html#about" class="scroll">About</a></li>
+					<li><a href="index-2.html#our_team" class="scroll">Our Team</a></li>
+					<li><a href="index-2.html#work" class="scroll">Work</a></li>
+					<li><a href="index-2.html#pricing" class="scroll">Pricing</a></li>
+					<li><a href="index-2.html#services" class="scroll">Services</a></li>
+					<li>
+						<a href="blog-right-sidebar.html">Blog</a>
+						<ul>
+							<li><a href="blog-right-sidebar.html">Right Sidebar Blog</a></li>
+							<li><a href="blog-fullwidth.html">Fullwidth Blog</a></li>
+							<li><a href="blog-left-sidebar.html">Left Sidebar Blog</a></li>
+							<li><a href="blog-masonry-3-columns.html">Masonry 3 Columns</a></li>
+							<li><a href="blog-masonry-4-columns.html">Masonry 4 Columns</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Features</a>
+						<ul>
+							<li><a href="elements.html">Elements</a></li>
+							<li><a href="#">Third Menu Level</a>
+								<ul>
+									<li><a href="#">Dummy Item</a></li>
+									<li><a href="#">Dummy Item</a></li>
+									<li><a href="#">Dummy Item</a></li>
+									<li><a href="#">Dummy Item</a></li>
+								</ul>
+							</li>
+							<li><a href="404.html">404 Page</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="page-fullwidth.html">Page – Fullwidth</a></li>
+							<li><a href="page-left-sidebar.html">Page – Left Sidebar</a></li>
+							<li><a href="page-right-sidebar.html">Page – Right Sidebar</a></li>
+						</ul>
+					</li>
+					<li><a href="index-2.html#contact" class="scroll">Contact</a></li>
+                                        <% if user_signed_in? %>
+					<li><%= link_to 'LogOut', destroy_user_session_path, method: :DELETE %></li>                                       	<% else %>
+                                        <li><%= link_to 'Login', new_user_session_path %></li>
+					<% end %>
+				</ul>
+			</nav>
+			<div id="ABdev_menu_toggle"><i class="entypo-list2"></i></div>
+		</div>
+	</header>
+
+	<section id="abdev_main_slider">
+		<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container" style="background-color:#E9E9E9;padding:0px;">
+			<div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display:none;">
+				<ul>
+					<!-- SLIDE 1 -->
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-thumb="/assets/taxi-320x200.jpg"  data-saveperformance="off"  data-title="Slide">
+						<!-- MAIN BACKGROUND IMAGE -->
+						<img src="/assets/taxi.jpg"  alt="taxi"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="-100" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
+							REVELANCE STUDIOS
+						</div>
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption revelance-small-with-lines lfr ltl tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="5500" data-endspeed="300"
+						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
+							BEST FEATURES JUST FOR YOU
+						</div>
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption revelance-button tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="80" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
+							<a href="#">GET STARTED</a>
+						</div>
+					</li>
+					<!-- SLIDE 2 -->
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-thumb="/assets/slide-320x200.jpg"  data-saveperformance="off"  data-title="Slide">
+						<!-- MAIN BACKGROUND IMAGE -->
+						<img src="/assets/slide.jpg"  alt="slide"  data-bgposition="left top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="-100" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
+							REVELANCE STUDIOS
+						</div>
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption revelance-small-with-lines lfr ltl tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="5500" data-endspeed="300"
+						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
+							CRAFTING QUALITY PRODUCTS
+						</div>
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption revelance-button tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="80" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
+							<a href="#">GET STARTED</a>
+						</div>
+					</li>
+					<!-- SLIDE 3 -->
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-thumb="/assets/Untitled-1-e1399994290886-320x200.jpg"  data-saveperformance="off"  data-title="Slide">
+						<!-- MAIN BACKGROUND IMAGE -->
+						<img src="/assets/Untitled-1-e1399994290886.jpg"  alt="Untitled-1-e1399994290886"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption revelance-big tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="-100" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
+							REVELANCE STUDIOS
+						</div>
+						<!-- LAYER NR. 2 -->
+						<div class="tp-caption revelance-small-with-lines lfr ltl tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-speed="300" data-start="500" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-end="5500" data-endspeed="300"
+						style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
+							BEST FEATURES JUST FOR YOU
+						</div>
+						<!-- LAYER NR. 3 -->
+						<div class="tp-caption revelance-button tp-fade tp-resizeme rs-parallaxlevel-10" data-x="center" data-hoffset="0" data-y="center" data-voffset="80" data-speed="300" data-start="0" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
+						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
+							<a href="#">GET STARTED</a>
+						</div>
+					</li>
+				</ul>
+				<div class="tp-bannertimer tp-bottom"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="revel_section_dd no_padding_bottom section-light-bulb section_with_gray_background">
+		<header>
+			<div class="revel_container">
+				<h3>We are Revelance</h3>
+				<p>revelance is a one page theme with tons of great shortcodes,unlimited color schemes and 100% fully responsive design.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<div class="revel-animo" data-animation="fadeInUp" data-duration="1000" data-delay="0">
+						<img src="/assets/wearerevelance.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="revel_section_dd section-light-bulb">
+		<header>
+			<div class="revel_container">
+				<h3>Core Features</h3>
+				<p>Check out some of our main core features. Revelance is a very<br>powerful theme packed with tons of shortcodes.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span4">
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-search"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>SEO Optimised</h3>
+							</a>
+						</div>
+						<p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-screen"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>Retina Ready</h3>
+							</a>
+						</div>
+						<p>The dreams of yesterday are the hopes of today and the reality of tomorrow.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-earth"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>WPML Multilingual</h3>
+							</a>
+						</div>
+						<p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-leaf"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>Unique Design</h3>
+							</a>
+						</div>
+						<p>The dreams of yesterday are the hopes of today and the reality of tomorrow.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-bucket"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>Unlimited Color Options</h3>
+							</a>
+						</div>
+						<p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-video"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>Video Documentation</h3>
+							</a>
+						</div>
+						<p>The dreams of yesterday are the hopes of today and the reality of tomorrow.</p>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-battery"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>Powerful Theme</h3>
+							</a>
+						</div>
+						<p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-pictures"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>HiDPI Images</h3>
+							</a>
+						</div>
+						<p>The dreams of yesterday are the hopes of today and the reality of tomorrow.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_round_aside">
+						<div class="revel_service_box_header">
+							<a href="#" target="_self" class="revel_icon_boxed">
+								<i class="entypo-install"></i>
+							</a>
+							<a href="#" target="_self">
+								<h3>XML File Included</h3>
+							</a>
+						</div>
+						<p>Where ignorance lurks, so too do the frontiers of discovery and imagination.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="revel_section_dd aligncenter color_overlayed revel-parallax" data-background_image="/assets/bg2.jpg" data-parallax="0.6">
+		<header>
+			<div class="revel_container">
+				<h3>Inspirational Quotes</h3>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<blockquote class="revel_blockquote">
+						<p>A designer knows he has achieved perfection not when there is nothingleft to add, but when there is nothing left to take away.<small>Antoine de Saint-Exupery  </small>
+					</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="our_team" class="revel_section_dd section-users">
+		<header>
+			<div class="revel_container">
+				<h3>Meet the team</h3>
+				<p>Fueled by Passion, thrived by CREATIVITY, that’s the easiest wayto describe our team members. get to know us.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span4">
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member1.jpg" alt="Daniel Smith">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Daniel Smith</span>
+							<span class="revel_team_member_position">FOUNDER - TECHNICAL DIRECTOR</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-twitter"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-linkedin"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-googleplus"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dribbble"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-rss"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-instagram"></i>
+							</a>
+						</div>
+					</div>
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member4.jpg" alt="Laurene Payne">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Laurene Payne</span>
+							<span class="revel_team_member_position">FOUNDER - ART DIRECTOR</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-googleplus"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-rss"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-behance"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member2.jpg" alt="Lucia Herberts">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Lucia Herberts</span>
+							<span class="revel_team_member_position">FOUNDER - ART DIRECTOR</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-twitter"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-googleplus"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dribbble"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-flickr"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-instagram"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-lastfm"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-picasa"></i>
+							</a>
+						</div>
+					</div>
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member5.jpg" alt="Manny Paul">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Manny Paul</span>
+							<span class="revel_team_member_position">UI DESIGNER</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-twitter"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dribbble"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member3.jpg" alt="Steve Nathans">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Steve Nathans</span>
+							<span class="revel_team_member_position">BRAND DESIGNER</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-twitter"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-linkedin"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dribbble"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-vimeo"></i>
+							</a>
+							<a href="mailto:#">
+								<i class="entypo-mail"></i>
+							</a>
+						</div>
+					</div>
+					<div class="revel_team_member revel_team_member_style_1">
+						<div class="revel_overlayed">
+							<img src="/assets/team_member6.jpg" alt="Gus Causer">
+							<div class="revel_overlay">
+								<p>				
+									<a href="team-member.html">
+										<i class="entypo-link"></i>
+									</a>
+								</p>
+							</div>
+						</div>
+						<a class="revel_team_member_link" href="team-member.html">
+							<span class="revel_team_member_name">Gus Causer</span>
+							<span class="revel_team_member_position">COPYWRITER</span>
+						</a>
+						<p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore</p>
+						<div class="revel_team_member_social_under">
+							<a href="#" target="_self">
+								<i class="entypo-twitter"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-facebook"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-googleplus"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dribbble"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-dropbox"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-flickr"></i>
+							</a>
+							<a href="#" target="_self">
+								<i class="entypo-instagram"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="revel_section_dd color_overlayed section-paperplane revel-parallax" data-background_image="/assets/street.jpg" data-parallax="0.5">
+		<header>
+			<div class="revel_container">
+				<h3>Some fun facts</h3>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span3">
+					<div class="revel_stats_excerpt">
+						<i class="entypo-paperplane"></i>
+						<span class="revel_stats_number" data-number="737" data-duration="1500">0</span>
+						<p>Projects Completed</p>
+					</div>
+					<span class="clear spacer_40"></span>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_stats_excerpt">
+						<i class="entypo-thumbsup"></i>
+						<span class="revel_stats_number" data-number="9257" data-duration="1500">0</span>
+						<p>Facebook Likes</p>
+					</div>
+					<span class="clear spacer_40"></span>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_stats_excerpt">
+						<i class="entypo-trophy"></i>
+						<span class="revel_stats_number" data-number="68" data-duration="149">0</span>
+						<p>Awards Won</p>
+					</div>
+					<span class="clear spacer_40"></span>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_stats_excerpt">
+						<i class="entypo-bag"></i>
+						<span class="revel_stats_number" data-number="62" data-duration="1500">0</span>
+						<p>Keyboards Smashed</p>
+					</div>
+					<span class="clear spacer_40"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="work" class="revel_section_dd section-camera section_body_fullwidth">
+		<header>
+			<div class="revel_container">
+				<h3>Latest Work</h3>
+				<p>WE CREATE QUALITY PRODUCTS THAT ENRICH THE LIVES OF OTHERS.HAVE A QUICK LOOK AT SOME OF OUR MOST RECENT WORK.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<ul id="filters" class="portfolio_filter option-set clearfix" data-option-key="filter">
+						<li>
+							<a href="#filter" data-option-value="*" class="selected">All</a>
+						</li>
+						<li>
+							<a href="#filter" data-option-value=".branding">Branding</a>
+						</li>
+						<li>
+							<a href="#filter" data-option-value=".design-2">Design</a>
+						</li>
+						<li>
+							<a href="#filter" data-option-value=".photography">Photography</a>
+						</li>
+						<li>
+							<a href="#filter" data-option-value=".web">Web</a>
+						</li>
+					</ul>
+					<div id="abdev_latest_portfolio" class="clearfix ab_latest_portfolio isotope">
+						<div class="portfolio_item portfolio_item_4 branding design-2 isotope-item">
+							<figure class="effect-bubba">
+								<img src="/assets/Untitled-2_0006_8jLdwLg6TLKIQfJcZgDb_Freedom_5.jpg" alt="Untitled-2_0006_8jLdwLg6TLKIQfJcZgDb_Freedom_5">
+								<figcaption>
+									<h4>Highest Skyscraper</h4>
+									<p>Branding, Design</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 photography web isotope-item">
+							<figure class="effect-sadie">
+								<img src="/assets/Untitled-2_0003_DA0J1dicQ76uxpzK5PR5_PR_4040_retina.jpg" alt="Untitled-2_0003_DA0J1dicQ76uxpzK5PR5_PR_4040_retina">
+								<figcaption>
+									<h4>To the Beach</h4>
+									<p>Photography, Web</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 photography web isotope-item">
+							<figure class="effect-ruby">
+								<img src="/assets/Untitled-2_0001_iqlYdAAYQiaOCoKnT6jE_kabia.jpg" alt="Untitled-2_0001_iqlYdAAYQiaOCoKnT6jE_kabia">
+								<figcaption>
+									<h4>Wild River</h4>
+									<p>Photography, Web</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 branding design-2 isotope-item">
+							<figure class="effect-oscar">
+								<img src="/assets/Untitled-2_0009_Layer-1.jpg" alt="Untitled-2_0009_Layer 1">
+								<figcaption>
+									<h4>Girl by the Lake</h4>
+									<p>Branding, Design</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 branding web isotope-item">
+							<figure class="effect-romeo">
+								<img src="/assets/Untitled-2_0008_rv1BIw0tSKi0xLtGrpR0_TE3_0185.jpg" alt="Untitled-2_0008_rv1BIw0tSKi0xLtGrpR0_TE3_0185">
+								<figcaption>
+									<h4>Beach Dusk</h4>
+									<p>Branding, Web</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 branding photography isotope-item">
+							<figure class="effect-milo">
+								<img src="/assets/Untitled-2_0000_kVEPcWcfSA2tgOpRz9Za__DSC0765.jpg" alt="Untitled-2_0000_kVEPcWcfSA2tgOpRz9Za__DSC0765">
+								<figcaption>
+									<h4>In the Forest</h4>
+									<p>Branding, Photography</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 design-2 web isotope-item">
+							<figure class="effect-marley">
+								<img src="/assets/Untitled-2_0005_a.jpg" alt="Untitled-2_0005_a">
+								<figcaption>
+									<h4>Across the River</h4>
+									<p>Design, Web</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="portfolio_item portfolio_item_4 design-2 photography isotope-item">
+							<figure class="effect-roxy">
+								<img src="/assets/Untitled-2_0007_6Icr9fARMmTjTHqTzK8z_DSC_0123.jpg" alt="Untitled-2_0007_6Icr9fARMmTjTHqTzK8z_DSC_0123">
+								<figcaption>
+									<h4>Spice Up Your World</h4>
+									<p>Design, Photography</p>
+									<a href="portfolio-item.html"></a>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="pricing" class="revel_section_dd color_overlayed revel-parallax section_no_column_margin" data-background_image="/assets/kristall.jpg" data-parallax="0.6">
+		<header>
+			<div class="revel_container">
+				<h3>Plans &amp; Pricing</h3>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span4">
+					<div class="revel_pricing-table-1">
+						<div class="revel_plan revel_plan1">
+							<div class="revel_pricebox_header">
+								<span class="revel_pricebox_name">BASIC</span>
+								<span class="revel_pricebox_currency">$</span>
+								<span class="revel_pricebox_price">99</span>
+								<span class="revel_pricebox_monthly">/month</span>
+							</div>
+							<span class="revel_pricebox_feature">
+								<strong>24</strong>
+								Hour Support
+							</span>
+							<span class="revel_pricebox_feature">
+								<strong>50GB</strong>
+								Data Allowance
+							</span>
+							<span class="revel_pricebox_feature">
+								<strong>5</strong>
+								Domain Name Changes
+							</span>
+							<span class="revel_pricebox_feature">
+								<strong>Up to 10</strong>
+								Users
+							</span>
+							<div class="revel_pricebox_feature revel_pricebox_feature_button">
+								<a href="#" target="_self" class="revel-button revel-button_light revel-button_medium">
+									Purchase
+									<i class="entypo-cart"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_pricing-table-1  revel_popular-plan">
+						<div class="revel_plan revel_plan2">
+							<div class="revel_pricebox_header">
+								<span class="revel_pricebox_name">STANDARD</span>
+								<span class="revel_pricebox_currency">$</span>
+								<span class="revel_pricebox_price">149</span>
+								<span class="revel_pricebox_monthly">/month</span>
+							</div>
+							<span class="revel_pricebox_feature">
+								<strong>24</strong>
+								Hour Support</span>
+							<span class="revel_pricebox_feature">
+								<strong>150GB</strong>
+								Data Allowance</span>
+							<span class="revel_pricebox_feature">
+								<strong>20</strong>
+								Domain Name Changes</span>
+							<span class="revel_pricebox_feature">
+								<strong>Up to 50</strong>
+								Users</span>
+							<div class="revel_pricebox_feature revel_pricebox_feature_button">
+								<a href="#" target="_self" class="revel-button revel-button_light revel-button_medium">
+									Purchase
+									<i class="entypo-cart"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="revel_column_dd_span4">
+					<div class="revel_pricing-table-1">
+						<div class="revel_plan revel_plan3">
+							<div class="revel_pricebox_header">
+								<span class="revel_pricebox_name">ADVANCED</span>
+								<span class="revel_pricebox_currency">$</span>
+								<span class="revel_pricebox_price">229</span>
+								<span class="revel_pricebox_monthly">/month</span>
+							</div>
+							<span class="revel_pricebox_feature">
+								<strong>24</strong>
+								Hour Support</span>
+							<span class="revel_pricebox_feature">
+								<strong>Unlimited</strong>
+								Data Allowance</span>
+							<span class="revel_pricebox_feature">
+								<strong>Unlimited</strong>
+								Domain Name Changes</span>
+							<span class="revel_pricebox_feature">
+								<strong>Unlimited</strong>
+								Users</span>
+							<div class="revel_pricebox_feature revel_pricebox_feature_button">
+								<a href="#" target="_self" class="revel-button revel-button_light revel-button_medium">
+									Purchase
+									<i class="entypo-cart"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services" class="revel_section_dd section-tools">
+		<header>
+			<div class="revel_container">
+				<h3>Our Services</h3>
+				<p>Check out some of our main core features.Revelance is a verypowerful theme packed with tons of shortcodes.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span3">
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-screen"></i>
+							</div>
+							<h3>Web Development</h3>
+						</div>
+						<p>The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-search"></i>
+							</div>
+							<h3>SEO</h3>
+						</div>
+						<p>Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.</p>
+					</div>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-statistics"></i>
+							</div>
+							<h3>Analystics</h3>
+						</div>
+						<p>Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-leaf"></i>
+							</div>
+							<h3>Corporate Branding</h3>
+						</div>
+						<p>The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy.</p>
+					</div>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-pie"></i>
+							</div>
+							<h3>Database Structure</h3>
+						</div>
+						<p>The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-rocket"></i>
+							</div>
+							<h3>Graphic Design</h3>
+						</div>
+						<p>Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.</p>
+					</div>
+				</div>
+				<div class="revel_column_dd_span3">
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-megaphone"></i>
+							</div>
+							<h3>Advertising</h3>
+						</div>
+						<p>Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.</p>
+					</div>
+					<div class="revel_service_box revel_service_box_square">
+						<div class="revel_service_box_header">
+							<div class="revel_icon_boxed">
+								<i class="entypo-mobile"></i>
+							</div>
+							<h3>Mobile Interface</h3>
+						</div>
+						<p>The path of a cosmonaut is not an easy, triumphant march to glory. You have to get to know the meaning not just of joy.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="revel_section_dd color_overlayed section-twitter revel-parallax" data-background_image="/assets/bike.jpg" data-parallax="0.6">
+		<header>
+			<div class="revel_container">
+				<h3>Stay Connected</h3>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<div class="ab-tweet-scroller " data-fx="fade" data-play="true" data-easing="linear" data-duration="1000" data-pauseonhover="immediate" data-timeoutduration="5000">
+						<div class="caroufredsel_wrapper">
+							<ul class="ab-tweet-scroller-inner">
+								<li class="ab-tweet-item">
+									<a class="ab-tweet-date" href="#" target="_blank">about 3 weeks ago</a>
+									<div class="ab-tweet-text">Here is our new 
+										<a href="#" target="_blank">#WordPress</a>
+										theme with Drag and Drop and lot of cool features 
+										<a href="#" target="_blank">#</a>
+									</div>
+								</li>
+								<li class="ab-tweet-item">
+									<a class="ab-tweet-date" href="#" target="_blank">about 3 weeks ago</a>
+									<div class="ab-tweet-text">RT 
+										<a href="#" target="_blank">@Saijo_George</a>
+										: Find all the FREE stock photos  and videos in one place 
+										<a href="#" target="_blank">#</a>
+									</div>
+								</li>
+								<li class="ab-tweet-item">
+									<a class="ab-tweet-date" href="#" target="_blank">about 3 weeks ago</a>
+									<div class="ab-tweet-text">
+										<a href="#" target="_blank">@Saijo_George</a>
+										hi, could you please also add our Drag and Drop themes to the collection? 
+										<a href="#" target="_blank">#</a>
+										Thank you! :)
+									</div>
+								</li>
+								<li class="ab-tweet-item">
+									<a class="ab-tweet-date" href="#" target="_blank">about 3 weeks ago</a>
+									<div class="ab-tweet-text">
+										<a href="#" target="_blank">#EnvatoElites</a>
+										Hi! could you add us to list :)
+									</div>
+								</li>
+								<li class="ab-tweet-item">
+									<a class="ab-tweet-date" href="#" target="_blank">about 2 months ago</a>
+									<div class="ab-tweet-text">
+										<a href="#" target="_blank">@pmverhulst</a>
+										we are just working on theme update which will include newest (still unpublished) version of Drag and Drop plugin..
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="ab-tweet-navigation">
+							<a href="#" class="ab-tweet-prev">&lt;</a>
+							<a href="#" class="ab-tweet-next">&gt;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="revel_section_dd section-mail">
+		<header>
+			<div class="revel_container">
+				<h3>Get in touch</h3>
+				<p>Our award winning support team that are willing to help youwith a quick and professional solution to your problems.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<form action="#" method="post" class="c_form">
+						<div class="row">
+							<div class="span4">
+								<input type="text" name="your-name" placeholder="Name (Required)">
+							</div>
+							<div class="span4">
+								<input type="email" name="your-email" placeholder="Email (Required)">
+							</div>
+							<div class="span4">
+								<input type="text" name="your-subject" placeholder="Subject">
+							</div>
+						</div>
+						<p>
+							<textarea name="your-message" placeholder="Your Message"></textarea>
+						</p>
+						<div class="center_aligned">
+							<input type="submit" value="Submit Your Message →" class="c_form-submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="revel_section_dd color_overlayed section-heart revel-parallax" data-background_image="/assets/building.jpg" data-parallax="0.4">
+		<header>
+			<div class="revel_container">
+				<h3>Social Media</h3>
+				<p>Stay up-to-date with our latest company news, and life blogs<br>entries via your favourite social network services.</p>
+			</div>
+		</header>
+		<div class="revel_section_content">
+			<div class="revel_container">
+				<div class="revel_column_dd_span12">
+					<div class="revel_follow_us">
+						<a class="revel_socialicon revel_socialicon_facebook revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Facebook">
+							<i class="entypo-facebook"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_twitter revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Twitter">
+							<i class="entypo-twitter"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_googleplus revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Google+">
+							<i class="entypo-googleplus"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_linkedin revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Linkedin">
+							<i class="entypo-linkedin"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_pinterest revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Pinterest">
+							<i class="entypo-pinterest"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_github revel_tooltip" data-gravity="s" href="#" target="_blank" title="Follow us on Github">
+							<i class="entypo-github"></i>
+						</a>
+						<a class="revel_socialicon revel_socialicon_feed revel_tooltip" data-gravity="s" href="#" target="_blank" title="Our RSS feed">
+							<i class="entypo-rss"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="abdev_main_footer">
+		<div class="container">
+			<a href="#" id="abdev_back_to_top" title="Back to top">
+				<i class="entypo-arrow-up7"></i>
+			</a>
+			<div id="footer_punchline">
+				Made with <i class="entypo-heart"></i> in London	 
+			</div>
+			<div id="footer_copyright">
+				© Copyright 2014 Revelance. All rights reserved.	 
+			</div>
+		</div>
+	</footer>
+
